@@ -1,0 +1,85 @@
+$main_Font-Size: 18px;
+$log_var: 100px;
+
+@mixin nav($val: true) {
+    @if $val {
+        color: rgb(255, 255, 255);  
+    }
+    @else{
+       color: rgb(0, 0, 0);
+    }
+
+}
+.spacer{
+    flex: 1 1 auto;
+}
+.btn-group{
+    margin-left: 20px;
+}
+.main_nav_bar_white{
+    flex: fixed;
+    @include nav(true);
+    background-color: black;
+
+   
+}
+.main_nav_bar_dark{
+    flex: fixed;
+    @include nav(true);
+    background-color: rgb(7, 122, 55);
+
+   
+}
+
+.title_BookCart{
+    font-size: $main_Font-Size;
+    padding:0px 4px;
+
+}
+
+
+
+.input_Search{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    font-size: $main_Font-Size;
+    outline: none;
+    padding: 5px 10px;
+    width: 400px;
+    border-radius: 3px;
+    margin-left: 190px;
+    
+
+}
+
+.input_Search::placeholder{
+    font-size: $main_Font-Size;
+}
+
+.shoppin_cart{
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.login{
+    font-family: $log_var;
+    font-size: $main_Font-Size;
+    cursor: pointer;
+
+}
+
+
+.alignment_nav_items{
+    margin-left: 30px;
+}
+
+
+.alignment_nav_items2{
+    margin-right: 5px;
+}
+
+.links{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}

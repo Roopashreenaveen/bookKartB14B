@@ -1,0 +1,43 @@
+<!-- material = m -->
+<!-- m mat-toolbar is used and attribute color="primary" is used to give color-->
+<mat-toolbar color="{{theme_color}}">
+    <!-- <mat-toolbar color = "{{theme_color}}" [ngClass] ="theme" ></mat-toolbar> -->
+    <!-- style=`background-color: red;` -->
+    <!-- m button -->
+    <button mat-button>
+        <!-- got the icon from material.icon -->
+        <!-- book is the word that creates the icon -->
+        <mat-icon>book</mat-icon>
+        <!-- used scss to change font size and padding (class="title_BookCart")-->
+        <span class="title_BookCart" routerLink="/home">Book Cart</span>
+    </button>
+
+    <!-- <mat-label >Search books or authors</mat-label> -->
+    <input type="search" matInput placeholder="Search books or authors" class="input_Search">
+    <div class="spacer"></div>
+    <a mat-button>
+        <mat-icon matBadge="0" matBadgeColor="warn" class="shoppin_cart" routerLink="/shopping_cart">shopping_cart
+        </mat-icon>
+    </a>
+    
+<span class="login alignment_nav_items" routerLink="/login">login</span> 
+   
+    <mat-icon class="alignment_nav_items links">format_color_fill</mat-icon>
+
+    <img src="https://static1.smartbear.co/swagger/media/assets/swagger_fav.png"
+        class="alignment_nav_items alignment_nav_items2" alt="swagger_png">
+
+
+    <span> <a href="https://bookcart.azurewebsites.net/swagger/index.html" class="links">swagger</a> </span>
+
+    <i class="fa fa-github alignment_nav_items alignment_nav_items2"></i>
+    <span><a href="https://github.com/AnkitSharma-007/bookcart" class="links">GitHub</a> </span>
+
+
+</mat-toolbar>
+
+
+<!-- <br>
+
+<button color = "{{theme_color}}" mat-raised-button (click)= "theme_change()">{{theme_color}}</button>
+{{theme_color}} -->

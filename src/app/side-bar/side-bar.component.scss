@@ -1,0 +1,41 @@
+// .side_bar{
+//     padding-bottom: 400px;
+// }
+
+mat-nav-list{
+    width: 100%;
+    margin: 5px 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    padding: 4px;
+
+}
+
+.list_header{
+    background-color: #fb641b;
+}
+.list_header:hover{
+    background-color: #fb641b;
+}
+
+mat-divider{
+    background-color: rgba(0, 0, 0, 0.23);
+}
+
+
+
+mat-grid-tile{
+    background-color: cornflowerblue;
+}
+
+.filter_section{
+    width: 100%;
+    margin: 10px 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.filter{
+
+    background-color: #ff4081;
+    padding: 6px;
+    color: white;
+}

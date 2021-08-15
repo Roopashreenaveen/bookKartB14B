@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "shopcart.component.scss"
+    ],
+    "names": [],
+    "file": "shopcart.component.css"
+}
